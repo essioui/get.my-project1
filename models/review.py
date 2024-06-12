@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from baseModel import baseModel
+from models.baseModel import baseModel
 
 class Review(baseModel):
     def __init__(self, user, place, rating, text):
